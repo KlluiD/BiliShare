@@ -1,0 +1,9 @@
+.navbar {
+    height: 8vh;
+    background-color: rgb(127, 190, 250);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
