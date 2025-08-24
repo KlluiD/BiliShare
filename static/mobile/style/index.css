@@ -1,7 +1,8 @@
 .navbar {
     height: 8vh;
     background-color: rgb(127, 190, 250);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.062);
+    position: sticky;
+    top: 0;
 }
 
 * {
