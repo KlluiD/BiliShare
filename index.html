@@ -1,1 +1,11 @@
-<h1> BiliShare </h1>
+<!-- Switch the platform and link into the correct platform -->
+<script>
+    var domain = window.location.hostname;
+
+    var ua = navigator.userAgent
+    if(/android|iphone|ipad|mobile|iemobile/i.test(ua)) {
+        window.location.replace(`/mobile`)
+    }else{
+        window.location.replace(`/desktop`)
+    }
+</script>
